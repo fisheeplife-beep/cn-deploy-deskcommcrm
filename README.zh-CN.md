@@ -1,5 +1,7 @@
 # DeskcommCRM 国内可跟做部署配套
 
+> **系列索引：** [cn-deploy](https://github.com/fisheeplife-beep/cn-deploy) — 中文可跟做部署配套合集。
+
 > 上游仓库：[melgarafael/DeskcommCRM](https://github.com/melgarafael/DeskcommCRM)（**MIT**）  
 > 官网：https://deskcomm.com.br · 英文说明：上游 `README.en.md`  
 > 官方安装套件：上游 `hostgator-setup-kit/`（`install.sh` / `update.sh` / `healthcheck.sh`）  
