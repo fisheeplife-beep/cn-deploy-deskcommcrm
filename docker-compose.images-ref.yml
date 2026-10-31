@@ -1,0 +1,15 @@
+# 参考用：声明三张官方预构建镜像的坐标（不能单独代替生产栈）。
+# 真正生产请用上游：docker-compose.prod.yml + hostgator-setup-kit/install.sh
+# 本文件便于：docker compose -f docker-compose.images-ref.yml pull
+# （仍需本机 Docker；验证机无 Docker 时请用 scripts/probe-ghcr.sh）
+
+services:
+  app:
+    image: ${APP_IMAGE:-ghcr.io/melgarafael/deskcommcrm:1.97.0}
+    profiles: ["ref-only"]
+  worker:
+    image: ${WORKER_IMAGE:-ghcr.io/melgarafael/deskcomm-worker:1.97.0}
+    profiles: ["ref-only"]
+  scheduler:
+    image: ${SCHEDULER_IMAGE:-ghcr.io/melgarafael/deskcomm-scheduler:1.97.0}
+    profiles: ["ref-only"]

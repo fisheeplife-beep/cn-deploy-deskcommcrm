@@ -1,0 +1,23 @@
+DeskcommCRM GHCR probe — companion author box
+Time: 2026-10-31 22:58 Asia/Shanghai
+Docker on box: NOT installed (compose up not run)
+
+OK ghcr.io/melgarafael/deskcommcrm:stable
+  digest: sha256:3a181725bfa9d1b8335fbef629d1a6ae4cbed19f310d5e34276a0bc394260a58
+  media:  application/vnd.oci.image.index.v1+json
+  plats:  linux/amd64, linux/arm64
+OK ghcr.io/melgarafael/deskcommcrm:1.97.0
+  digest: sha256:3a181725bfa9d1b8335fbef629d1a6ae4cbed19f310d5e34276a0bc394260a58
+  media:  application/vnd.oci.image.index.v1+json
+  plats:  linux/amd64, linux/arm64
+OK ghcr.io/melgarafael/deskcomm-worker:stable
+  digest: sha256:59565ffcc001464cd4cc2ace72a83f55f6dfae02b94582b66b1699eb33df8244
+  media:  application/vnd.oci.image.index.v1+json
+  plats:  linux/amd64, linux/arm64
+OK ghcr.io/melgarafael/deskcomm-scheduler:stable
+  digest: sha256:79e9d02114624f010cea86d96caa3fe6df22d272d9dedc1c1014cfb9715c4101
+  media:  application/vnd.oci.image.index.v1+json
+  plats:  linux/amd64, linux/arm64
+
+Aligned with upstream release tag v1.97.0 (image tags omit leading v).
+WAHA pin used by upstream local compose: devlikeapro/waha:latest-2026.7.2 (Docker Hub HTTP 200, amd64).
